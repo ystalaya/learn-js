@@ -1,0 +1,17 @@
+1. Установка Git (https://git-scm.com/downloads)
+2. Первоначальная настройка Git
+1. Команда git config —global user.name «Твой логин на GitHub»
+2. Команда git config —global user.email «Твой Email на Github»
+3. Если трудности, смотреть на картинку, что приложил
+3. Генерируем и добавляем на GitHub SSH ключ
+1. https://docs.github.com/en/github/authenticating-to-g.. - генерация SSH ключа (под свою систему)
+2. https://docs.github.com/en/github/authenticating-to-g.. - добавление SSH ключа к своему аккаунту на GitHub
+3. По завершению операций пишем в терминале следующую команду: ssh -T git@github.com - при выполнении команды спросит: Are you sure you want to continue connecting (yes/no)? Ответ: Да
+4. Если ты все сделала правильно должно написать: Hi «Your NAME»! You've successfully authenticated, but GitHub does not provide shell access.
+5. Если не получилось пишем мне
+4. Создать проект на github и назвать его Codewars
+
+__________________________________________________________
+
+Очтет за 3 сентября 2020
+Сделаны все пункты, кроме 4.2, Создан, но с командами ознакомлюсь уже завтра.
