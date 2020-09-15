@@ -1,0 +1,9 @@
+|| (ИЛИ), && (И) и ! (НЕ).
+
+Существует всего четыре возможные логические комбинации:
+
+alert( true || true );   // true
+alert( false || true );  // true
+alert( true || false );  // true
+alert( false || false ); // false
+
