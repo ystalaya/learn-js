@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+<script>
+    var size =  25, arr = [], pool = [];
+    //создание массива от 0 до 25
+    for(var i = 0; i <= size; i++) {
+        arr.push(i);
+    }
+
+    let s = prompt('Выберете число от 0 до 25', 25);
+    let low = 0; // голово
+    let high = size - 1; //хвост
+    while (low<=high){
+        mid = (low + high)/2; // проверка среднего значения
+        mid =Math.floor(mid);
+        guess = arr[mid]; // середина массива
+        if (guess==s) {
+
+            alert(mid);
+        }
+        alert(mid);
+        if (guess>s) {
+            high = mid-1;
+        }
+        else  {
+            alert(mid);
+            low = mid + 1;
+        }
+    }
+
+
+</script>
+
+</body>
+
+</html>
