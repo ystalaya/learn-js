@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+<p>Перед скриптом...</p>
+
+<script>
+user.name = 'John';//добавить свойство
+user.surname = 'Smith';//добавить свойство
+user.name = 'Pete';//изменение свойства
+delete user.name; // удаление свойства
+</script>
+
+<p>...После скрипта.</p>
+
+</body>
+
+</html>
+
+_____________________________
+
+function isEmpty(schedule){
+
+for(var key in schedule)
+{
+return false;
+}
+return true;
+}
